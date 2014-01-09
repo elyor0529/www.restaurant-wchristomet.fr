@@ -1,0 +1,1526 @@
+
+
+@font-face {
+    font-family: 'adobe_jenson_proregular';
+    src: url('../fonts/adobe_jenson_pro-webfont.eot');
+    src: url('../fonts/adobe_jenson_pro-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/adobe_jenson_pro-webfont.woff') format('woff'), url('../fonts/adobe_jenson_pro-webfont.ttf') format('truetype'), url('../fonts/adobe_jenson_pro-webfont.svg#adobe_jenson_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('../fonts/family_Source_Sans_Pro_400_700.css'); /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+    audio:not([controls]) {
+        display: none;
+        height: 0;
+    }
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+dfn {
+    font-style: italic;
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+p, pre {
+    margin: 1em 0;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: none;
+}
+
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+small {
+    font-size: 80%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+dl, menu, ol, ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+menu, ol, ul {
+    padding: 0 0 0 40px;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    *margin-left: -7px;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    *overflow: visible;
+}
+
+    button[disabled], html input[disabled] {
+        cursor: default;
+    }
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+    input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html, button, input, select, textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio, canvas, img, video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.my-icons-sprite, .my-icons-arrowbottom, html body nav .languages.close .languagesArrow, html body #nav2 .languages.close .languagesArrow, .my-icons-arrowtop, html body nav .languages.open .languagesArrow, html body #nav2 .languages.open .languagesArrow, .my-icons-cross, html body .popinLayer .closeButton div, .my-icons-navlogo, html body nav .navLogo, html body #nav2 .navLogo {
+    background: url('../img/my-icons-s953f167520.png') no-repeat;
+}
+
+.my-icons-arrowbottom, html body nav .languages.close .languagesArrow, html body #nav2 .languages.close .languagesArrow {
+    background-position: 0 -51px;
+}
+
+.my-icons-arrowtop, html body nav .languages.open .languagesArrow, html body #nav2 .languages.open .languagesArrow {
+    background-position: 0 -46px;
+}
+
+.my-icons-cross, html body .popinLayer .closeButton div {
+    background-position: 0 -31px;
+}
+
+.my-icons-navlogo, html body nav .navLogo, html body #nav2 .navLogo {
+    background-position: 0 0;
+}
+
+.backgroundNoRepeat, html body #wrapper #mainContainer header #headerVisualMask #headerVisualPicture, html body #wrapper #mainContainer section #a-propos h2, html body #wrapper #mainContainer section #menu #menuLink div.background, html body #wrapper #mainContainer section #menu #winesLink div.background, html body #wrapper #mainContainer section #contact, html body #wrapper #mainContainer footer #footerLeft, html body #wrapper #mainContainer footer #footerRight {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+}
+
+    .resetMarginPadding, html, html body, html body #menuLayer #menuContainer ul, html body #menuLayer #menuContainer ul li, html body #menuLayer #menuContainer h2, html body nav .sectionList, html body #nav2 .sectionList, html body nav .sectionList li a:link, html body nav .sectionList li a:visited, html body #nav2 .sectionList li a:link, html body #nav2 .sectionList li a:visited, html body nav .languages .languagesMask .languagesContainer ul, html body #nav2 .languages .languagesMask .languagesContainer ul, html body #wrapper #mainContainer header h1, html body #wrapper #mainContainer section .regularSectionText, html body #wrapper #mainContainer section #a-propos p, html body #wrapper #mainContainer section #menu p.first, html body #wrapper #mainContainer section #menu p.second, html body #wrapper #mainContainer section #a-propos h2, html body #wrapper #mainContainer section #contact h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+        .resetUl, html body #menuLayer #menuContainer ul, html body nav .languages .languagesMask .languagesContainer ul, html body #nav2 .languages .languagesMask .languagesContainer ul {
+            list-style: none;
+            list-style-image: none;
+        }
+
+html {
+    background-color: #1b1b1b;
+}
+
+    html body {
+        background-color: #1b1b1b;
+        width: 100%;
+    }
+
+        html body .popinLayer {
+            display: none;
+        }
+
+            html body .popinLayer .closeButton {
+                width: 50px;
+                height: 50px;
+                display: block;
+                position: absolute;
+                top: 40px;
+                left: 50%;
+                margin: 0 0 0 510px;
+                z-index: 100;
+            }
+
+                html body .popinLayer .closeButton div {
+                    position: absolute;
+                    height: 15px;
+                    width: 16px;
+                    top: 15px;
+                    left: 15px;
+                }
+
+        html body #winesLayer {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            background-color: #000000;
+            background-color: rgba(0,0,0,0.8);
+            z-index: 200;
+        }
+
+            html body #winesLayer #winesContainer {
+                position: relative;
+                top: 0;
+                height: 100%;
+                width: 1200px;
+                margin: 0 auto;
+                overflow: scroll;
+                -webkit-overflow-scrolling: touch;
+            }
+
+                html body #winesLayer #winesContainer .content {
+                    position: relative;
+                    float: left;
+                    width: 600px;
+                    padding: 100px 0;
+                }
+
+                    html body #winesLayer #winesContainer .content h2 span {
+                        position: absolute;
+                        display: block;
+                        text-transform: uppercase;
+                        color: #fff;
+                        font-weight: normal;
+                        font-family: 'adobe_jenson_proregular', serif;
+                    }
+
+                    html body #winesLayer #winesContainer .content h2 .big {
+                        font-size: 50px;
+                        line-height: 50px;
+                        letter-spacing: 20px;
+                    }
+
+                    html body #winesLayer #winesContainer .content h2 .small {
+                        font-size: 18px;
+                        line-height: 18px;
+                        letter-spacing: 0px;
+                        font-weight: normal;
+                    }
+
+                    html body #winesLayer #winesContainer .content #champagneTitle {
+                        position: absolute;
+                        z-index: 100;
+                    }
+
+                    html body #winesLayer #winesContainer .content table {
+                        width: 455px;
+                        margin: 10px 0;
+                    }
+
+                        html body #winesLayer #winesContainer .content table tr td, html body #winesLayer #winesContainer .content table tr th.column2 {
+                            font-size: 12px;
+                            text-transform: uppercase;
+                        }
+
+                        html body #winesLayer #winesContainer .content table tr th {
+                            font-size: 18px;
+                            font-weight: normal;
+                            text-transform: uppercase;
+                            height: 40px;
+                        }
+
+                            html body #winesLayer #winesContainer .content table tr td.column1, html body #winesLayer #winesContainer .content table tr th.column1 {
+                                width: 355px;
+                                text-align: left;
+                                color: #ffffff;
+                                font-family: 'Source Sans Pro', sans-serif;
+                            }
+
+                            html body #winesLayer #winesContainer .content table tr td.column2, html body #winesLayer #winesContainer .content table tr th.column2 {
+                                width: 100px;
+                                text-align: right;
+                                color: #ffffff;
+                                font-family: 'adobe_jenson_proregular', serif;
+                            }
+
+        html body #menuLayer {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            background-color: #000000;
+            background-color: rgba(0,0,0,0.8);
+            z-index: 200;
+        }
+
+            html body #menuLayer #menuContainer {
+                position: relative;
+                top: 0;
+                height: 100%;
+                width: 1200px;
+                margin: 0 auto;
+                padding: 50px 0;
+                overflow: scroll;
+                -webkit-overflow-scrolling: touch;
+            }
+
+                html body #menuLayer #menuContainer ul {
+                    display: block;
+                    margin: 0px 0 100px 500px;
+                    width: 600px;
+                    color: #ffffff;
+                }
+
+                    html body #menuLayer #menuContainer ul li {
+                        margin: 0 0 20px 0;
+                        width: 600px;
+                    }
+
+                        html body #menuLayer #menuContainer ul li .french, html body #menuLayer #menuContainer ul li .english {
+                            display: block;
+                        }
+
+                        html body #menuLayer #menuContainer ul li .french {
+                            font-size: 15px;
+                            font-family: 'adobe_jenson_proregular', serif;
+                        }
+
+                        html body #menuLayer #menuContainer ul li .english {
+                            font-size: 13px;
+                            font-style: italic;
+                            font-family: 'adobe_jenson_proregular', serif;
+                        }
+
+                html body #menuLayer #menuContainer h2 {
+                    position: absolute;
+                    display: block;
+                    color: #ffffff;
+                    width: 460px;
+                    text-align: right;
+                    text-transform: uppercase;
+                    font-family: 'adobe_jenson_proregular', serif;
+                    font-weight: normal;
+                }
+
+                    html body #menuLayer #menuContainer h2.absolute {
+                        position: absolute;
+                    }
+
+                    html body #menuLayer #menuContainer h2.fixed {
+                        position: fixed;
+                        color: red;
+                        top: 50px;
+                    }
+
+        html body nav, html body #nav2 {
+            position: absolute;
+            width: 100%;
+            height: 38px;
+            top: 600px;
+        }
+
+            html body nav .navLogo, html body #nav2 .navLogo {
+                position: absolute;
+                height: 31px;
+                width: 40px;
+                top: 0;
+                left: 55px;
+                cursor: pointer;
+            }
+
+            html body nav .sectionList, html body #nav2 .sectionList {
+                position: relative;
+                display: block;
+                text-align: center;
+                width: 100%;
+                background-color: #363636;
+            }
+
+                html body nav .sectionList li, html body #nav2 .sectionList li {
+                    display: inline-block;
+                    padding: 0 50px;
+                    margin: 0;
+                }
+
+                    html body nav .sectionList li a:link, html body nav .sectionList li a:visited, html body #nav2 .sectionList li a:link, html body #nav2 .sectionList li a:visited {
+                        display: block;
+                        height: 38px;
+                        line-height: 38px;
+                        font-size: 15px;
+                        color: #fff;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+
+                    html body nav .sectionList li a:hover, html body #nav2 .sectionList li a:hover {
+                        color: #999;
+                        text-decoration: none;
+                    }
+
+            html body nav .languages, html body #nav2 .languages {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 38px;
+                width: 140px;
+            }
+
+                html body nav .languages .languagesButton, html body #nav2 .languages .languagesButton {
+                    position: absolute;
+                    display: block;
+                    height: 38px;
+                    width: 140px;
+                }
+
+                    html body nav .languages .languagesButton .languagesSelected, html body #nav2 .languages .languagesButton .languagesSelected {
+                        position: absolute;
+                        display: block;
+                        text-align: right;
+                        width: 105px;
+                        right: 35px;
+                        height: 38px;
+                        line-height: 38px;
+                        font-size: 11px;
+                        color: #fff;
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+
+                    html body nav .languages .languagesButton .languagesArrow, html body #nav2 .languages .languagesButton .languagesArrow {
+                        position: absolute;
+                        right: 17px;
+                        top: 16px;
+                        height: 5px;
+                        width: 9px;
+                    }
+
+                html body nav .languages .languagesMask, html body #nav2 .languages .languagesMask {
+                    position: absolute;
+                    top: 38px;
+                    width: 140px;
+                    height: 140px;
+                    overflow: hidden;
+                }
+
+                    html body nav .languages .languagesMask .languagesContainer, html body #nav2 .languages .languagesMask .languagesContainer {
+                        position: absolute;
+                        width: 140px;
+                        top: -140px;
+                    }
+
+                        html body nav .languages .languagesMask .languagesContainer ul li, html body #nav2 .languages .languagesMask .languagesContainer ul li {
+                            text-align: right;
+                            padding: 0 35px 0 0;
+                        }
+
+                            html body nav .languages .languagesMask .languagesContainer ul li a:link, html body nav .languages .languagesMask .languagesContainer ul li a:visited, html body #nav2 .languages .languagesMask .languagesContainer ul li a:link, html body #nav2 .languages .languagesMask .languagesContainer ul li a:visited {
+                                font-size: 11px;
+                                color: #363636;
+                                text-decoration: none;
+                            }
+
+                            html body nav .languages .languagesMask .languagesContainer ul li a:hover, html body #nav2 .languages .languagesMask .languagesContainer ul li a:hover {
+                                text-decoration: underline;
+                            }
+
+            html body nav.fixed {
+                position: fixed;
+                width: 1200px;
+                height: 38px;
+                top: 0;
+            }
+
+        html body #nav2 {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 1200px;
+            margin-left: -600px;
+            z-index: 200;
+        }
+
+        html body #wrapper.touchable {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        html body #wrapper #mainContainer {
+            position: relative;
+            width: 1200px;
+            background-color: #ffffff;
+            margin: 0 auto;
+        }
+
+            html body #wrapper #mainContainer header {
+                position: relative;
+                width: 100%;
+                height: 638px;
+                z-index: 100;
+            }
+
+                html body #wrapper #mainContainer header #headerVisualMask {
+                    position: absolute;
+                    width: 100%;
+                    height: 600px;
+                    overflow: hidden;
+                    background-image: url(../img/header-background-repeat.jpg);
+                    background-repeat: repeat-y;
+                }
+
+                    html body #wrapper #mainContainer header #headerVisualMask #headerVisualPicture {
+                        position: absolute;
+                        width: 100%;
+                        height: 619px;
+                        background-image: url(../img/header-background.jpg);
+                        background-position: bottom center;
+                        bottom: 0;
+                    }
+
+                html body #wrapper #mainContainer header h1 {
+                    display: block;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 100%;
+                }
+
+                    html body #wrapper #mainContainer header h1 span.first, html body #wrapper #mainContainer header h1 span.second, html body #wrapper #mainContainer header h1 span.third {
+                        display: block;
+                        width: 100%;
+                        position: absolute;
+                        text-align: center;
+                        text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+                        font-weight: normal;
+                        font-style: normal;
+                        font-family: 'adobe_jenson_proregular', serif;
+                    }
+
+                    html body #wrapper #mainContainer header h1 span.first {
+                        top: 210px;
+                        font-size: 42px;
+                        line-height: 42px;
+                        text-transform: uppercase;
+                    }
+
+                        html body #wrapper #mainContainer header h1 span.first span {
+                            font-size: 25px;
+                        }
+
+                    html body #wrapper #mainContainer header h1 span.second {
+                        top: 271px;
+                        font-size: 95px;
+                        line-height: 95px;
+                        text-transform: uppercase;
+                        margin-left: 89px;
+                    }
+
+                    html body #wrapper #mainContainer header h1 span.third {
+                        top: 379px;
+                        font-size: 48px;
+                        line-height: 48px;
+                        text-transform: uppercase;
+                    }
+
+                    html body #wrapper #mainContainer header h1 span.forth {
+                        position: absolute;
+                        display: block;
+                        left: 50%;
+                        top: 241px;
+                        margin-left: -359px;
+                    }
+
+            html body #wrapper #mainContainer section {
+                position: relative;
+                background-color: #f4f4f4;
+                z-index: 1;
+            }
+
+                html body #wrapper #mainContainer section #stairsTitle {
+                    position: absolute;
+                    z-index: 100;
+                }
+
+                    html body #wrapper #mainContainer section #stairsTitle span {
+                        position: absolute;
+                        display: block;
+                        text-transform: uppercase;
+                        font-size: 50px;
+                        line-height: 50px;
+                        color: #56575b;
+                        font-family: 'adobe_jenson_proregular', serif;
+                    }
+
+                    html body #wrapper #mainContainer section #stairsTitle .first {
+                        top: 264px;
+                        left: 155px;
+                    }
+
+                    html body #wrapper #mainContainer section #stairsTitle .second {
+                        top: 363px;
+                        left: 114px;
+                    }
+
+                    html body #wrapper #mainContainer section #stairsTitle .third {
+                        top: 465px;
+                        left: 153px;
+                    }
+
+                    html body #wrapper #mainContainer section #stairsTitle .forth {
+                        top: 565px;
+                        left: 196px;
+                    }
+
+                html body #wrapper #mainContainer section .regularSectionText, html body #wrapper #mainContainer section #a-propos p, html body #wrapper #mainContainer section #menu p.first, html body #wrapper #mainContainer section #menu p.second {
+                    text-align: center;
+                    font-size: 18px;
+                    letter-spacing: 1.3px;
+                    line-height: 23px;
+                    font-family: 'Source Sans Pro', sans-serif;
+                }
+
+                html body #wrapper #mainContainer section #a-propos {
+                    position: relative;
+                    width: 100%;
+                    height: 361px;
+                }
+
+                    html body #wrapper #mainContainer section #a-propos h2 {
+                        text-align: center;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        line-height: 40px;
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        top: 91px;
+                        background-image: url(../img/a-propos-title-background.jpg);
+                    }
+
+                        html body #wrapper #mainContainer section #a-propos h2 span {
+                            display: block;
+                            position: relative;
+                            margin: 0 auto;
+                            padding: 0 90px;
+                            background-color: #f4f4f4;
+                            text-align: center;
+                            width: 460px;
+                            font-family: 'Source Sans Pro', sans-serif;
+                        }
+
+                    html body #wrapper #mainContainer section #a-propos p {
+                        position: absolute;
+                        width: 100%;
+                        top: 222px;
+                        color: #161616;
+                    }
+
+                html body #wrapper #mainContainer section #menu {
+                    position: relative;
+                    width: 100%;
+                    height: 800px;
+                }
+
+                    html body #wrapper #mainContainer section #menu p.first, html body #wrapper #mainContainer section #menu p.second {
+                        color: #252525;
+                    }
+
+                    html body #wrapper #mainContainer section #menu p.first {
+                        position: absolute;
+                        width: 400px;
+                        top: 482px;
+                        right: 90px;
+                    }
+
+                    html body #wrapper #mainContainer section #menu p.second {
+                        position: absolute;
+                        width: 400px;
+                        top: 554px;
+                        right: 90px;
+                    }
+
+                    html body #wrapper #mainContainer section #menu #menuLink, html body #wrapper #mainContainer section #menu #winesLink {
+                        position: absolute;
+                        display: block;
+                        width: 500px;
+                        height: 350px;
+                    }
+
+                        html body #wrapper #mainContainer section #menu #menuLink div.background, html body #wrapper #mainContainer section #menu #winesLink div.background {
+                            position: absolute;
+                            width: 500px;
+                            height: 300px;
+                        }
+
+                        html body #wrapper #mainContainer section #menu #menuLink span, html body #wrapper #mainContainer section #menu #winesLink span {
+                            position: absolute;
+                            display: block;
+                            background-color: #fff;
+                            width: 100%;
+                            height: 50px;
+                            bottom: 0;
+                            line-height: 50px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            font-size: 15px;
+                            text-decoration: none;
+                            font-family: 'Source Sans Pro', sans-serif;
+                        }
+
+                        html body #wrapper #mainContainer section #menu #menuLink:link, html body #wrapper #mainContainer section #menu #menuLink:visited {
+                            top: 50px;
+                            right: 200px;
+                            z-index: 2;
+                        }
+
+                            html body #wrapper #mainContainer section #menu #menuLink:link .background, html body #wrapper #mainContainer section #menu #menuLink:visited .background {
+                                background-image: url(../img/menu-link.jpg);
+                            }
+
+                            html body #wrapper #mainContainer section #menu #menuLink:link span, html body #wrapper #mainContainer section #menu #menuLink:visited span {
+                                color: #000;
+                            }
+
+                        html body #wrapper #mainContainer section #menu #menuLink:hover span {
+                            color: #666;
+                        }
+
+                        html body #wrapper #mainContainer section #menu #winesLink:link, html body #wrapper #mainContainer section #menu #winesLink:visited {
+                            top: 350px;
+                            left: 200px;
+                            z-index: 1;
+                        }
+
+                            html body #wrapper #mainContainer section #menu #winesLink:link .background, html body #wrapper #mainContainer section #menu #winesLink:visited .background {
+                                background-image: url(../img/wines-link.jpg);
+                            }
+
+                            html body #wrapper #mainContainer section #menu #winesLink:link span, html body #wrapper #mainContainer section #menu #winesLink:visited span {
+                                color: #000;
+                            }
+
+                        html body #wrapper #mainContainer section #menu #winesLink:hover span {
+                            color: #666;
+                        }
+
+                html body #wrapper #mainContainer section #contact {
+                    position: relative;
+                    width: 100%;
+                    height: 700px;
+                    background-image: url(../img/contact-background.jpg);
+                }
+
+                    html body #wrapper #mainContainer section #contact h2 {
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        height: 33px;
+                        top: 73px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        font-size: 33px;
+                        line-height: 33px;
+                        text-align: center;
+                        letter-spacing: 0.5px;
+                        text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+
+                    html body #wrapper #mainContainer section #contact #tabs {
+                        background-color: #ffffff;
+                    }
+
+                        html body #wrapper #mainContainer section #contact #tabs #tabsBackground {
+                            display: block;
+                            position: absolute;
+                            width: 400px;
+                            height: 87px;
+                            top: 154px;
+                            left: 200px;
+                            background-color: #2c2c2c;
+                        }
+
+                        html body #wrapper #mainContainer section #contact #tabs #fromTracksLink, html body #wrapper #mainContainer section #contact #tabs #fromMegeveLink {
+                            display: block;
+                            position: absolute;
+                            width: 400px;
+                            height: 87px;
+                            text-transform: uppercase;
+                            font-size: 20px;
+                            text-align: center;
+                            line-height: 87px;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            -webkit-transition-property: color;
+                            -moz-transition-property: color;
+                            -o-transition-property: color;
+                            transition-property: color;
+                            -webkit-transition-duration: 0.5s;
+                            -moz-transition-duration: 0.5s;
+                            -o-transition-duration: 0.5s;
+                            transition-duration: 0.5s;
+                        }
+
+                            html body #wrapper #mainContainer section #contact #tabs #fromTracksLink:link, html body #wrapper #mainContainer section #contact #tabs #fromTracksLink:visited {
+                                text-decoration: none;
+                                color: #2c2c2c;
+                                top: 154px;
+                                left: 200px;
+                            }
+
+                            html body #wrapper #mainContainer section #contact #tabs #fromTracksLink:hover {
+                                text-decoration: none;
+                            }
+
+                            html body #wrapper #mainContainer section #contact #tabs #fromMegeveLink:link, html body #wrapper #mainContainer section #contact #tabs #fromMegeveLink:visited {
+                                text-decoration: none;
+                                color: #2c2c2c;
+                                top: 154px;
+                                right: 200px;
+                            }
+
+                            html body #wrapper #mainContainer section #contact #tabs #fromMegeveLink:hover {
+                                text-decoration: none;
+                            }
+
+                            html body #wrapper #mainContainer section #contact #tabs #fromTracksLink.activated, html body #wrapper #mainContainer section #contact #tabs #fromMegeveLink.activated {
+                                color: #ffffff;
+                            }
+
+                    html body #wrapper #mainContainer section #contact #mapsMask {
+                        position: absolute;
+                        width: 800px;
+                        height: 358px;
+                        overflow: hidden;
+                        top: 242px;
+                        left: 200px;
+                    }
+
+                        html body #wrapper #mainContainer section #contact #mapsMask #mapsContainer {
+                            position: absolute;
+                            width: 800px;
+                            height: 358px;
+                            background-image: url(../img/map-megeve.jpg);
+                            background-repeat: no-repeat;
+                            background-position: top left;
+                        }
+
+                            html body #wrapper #mainContainer section #contact #mapsMask #mapsContainer #mapTracks, html body #wrapper #mainContainer section #contact #mapsMask #mapsContainer #mapMegeve {
+                                position: relative;
+                                width: 800px;
+                                height: 358px;
+                                float: left;
+                            }
+
+            html body #wrapper #mainContainer footer {
+                position: relative;
+                width: 100%;
+                height: 100px;
+                background-image: url(../img/footer-background-middle.jpg);
+                background-repeat: repeat-x;
+            }
+
+                html body #wrapper #mainContainer footer #footerLeft, html body #wrapper #mainContainer footer #footerRight {
+                    position: absolute;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                html body #wrapper #mainContainer footer #footerLeft {
+                    left: 0;
+                    background-image: url(../img/footer-background-left.jpg);
+                }
+
+                html body #wrapper #mainContainer footer #footerRight {
+                    right: 0;
+                    background-image: url(../img/footer-background-right.jpg);
+                }
+
+                html body #wrapper #mainContainer footer #footerMiddle {
+                    color: #ffffff;
+                    display: block;
+                    position: absolute;
+                    left: 50%;
+                    margin: 0 0 0 -400px;
+                    width: 800px;
+                    text-align: center;
+                    top: 33px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-family: 'Source Sans Pro', sans-serif;
+                }
+
+                    html body #wrapper #mainContainer footer #footerMiddle span {
+                        text-transform: uppercase;
+                    }
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+    .ir:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+    .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a, a:visited {
+        text-decoration: underline;
+    }
+
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "";
+    }
+
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr, img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2, h3 {
+        page-break-after: avoid;
+    }
+}
+
+.contentList {
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+
+html body #winesLayer {
+    background-color: rgba(0,0,0,0.9);
+}
+
+    html body #winesLayer #winesContainer .content table tr td.column1,
+    html body #winesLayer #winesContainer .content table tr th.column1,
+    html body #winesLayer #winesContainer .content table tr td.column2,
+    html body #winesLayer #winesContainer .content table tr th.column2,
+    html body #winesLayer #winesContainer .content table tr td.column3,
+    html body #winesLayer #winesContainer .content table tr th.column3 {
+        color: #f0f0f0;
+    }
+
+    html body #winesLayer #winesContainer .content table tr td.column1,
+    html body #winesLayer #winesContainer .content table tr th.column1 {
+        width: 650px;
+    }
+
+    html body #winesLayer #winesContainer .content table tr td.column3,
+    html body #winesLayer #winesContainer .content table tr th.column3 {
+        width: 100px;
+        text-align: right;
+        color: #ffffff;
+        font-family: 'adobe_jenson_proregular', serif;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    html body #winesLayer #winesContainer .content h2 {
+        margin-left: 100px;
+        position: absolute;
+        z-index: 100;
+    }
+/* CHAMPGNE TITLE */
+#champagneTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#champagneTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#champagneTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#champagneTitle .forth {
+    top: 270px;
+    left: 115px;
+}
+
+#champagneTitle .fifth {
+    top: 377px;
+    left: 95px;
+}
+/* LOIRE TITLE */
+#loireTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#loireTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#loireTitle .third {
+    top: 180px;
+    left: 60px;
+    width: 500px;
+}
+
+#loireTitle .forth {
+    top: 270px;
+    left: 115px;
+}
+
+#loireTitle .fifth {
+    top: 377px;
+    left: 125px;
+}
+
+#loireTitle .sixth {
+    top: 485px;
+    left: 135px;
+}
+
+
+/* bourgogne  TITLE */
+#bourgogneTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#bourgogneTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#bourgogneTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#bourgogneTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+/* savoir TITLE */
+#savoieTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#savoieTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#savoieTitle .third {
+    top: 180px;
+    left: 80px;
+}
+
+#savoieTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+/* bordelais TITLE */
+#bordelaisTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#bordelaisTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#bordelaisTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#bordelaisTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+#bordelaisTitle .fifth {
+    top: 377px;
+    left: 115px;
+}
+
+/* rhone TITLE */
+#rhoneTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#rhoneTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#rhoneTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#rhoneTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+#rhoneTitle .fifth {
+    top: 377px;
+    left: 125px;
+}
+/* roseTitle TITLE */
+
+#roseTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#roseTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#roseTitle .third {
+    top: 180px;
+    left: 60px;
+    width: 500px;
+}
+
+#roseTitle .forth {
+    top: 270px;
+    left: 180px;
+}
+
+
+/* italie TITLE */
+
+#italieTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#italieTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#italieTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#italieTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+/* espagne TITLE */
+
+#espagneTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#espagneTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#espagneTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#espagneTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+#espagneTitle .fifth {
+    top: 377px;
+    left: 115px;
+}
+
+#espagneTitle .sixth {
+    top: 485px;
+    left: 95px;
+}
+
+/* californie TITLE */
+
+#californieTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#californieTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#californieTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#californieTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+#californieTitle .fifth {
+    top: 377px;
+    left: 115px;
+}
+
+#californieTitle .sixth {
+    top: 485px;
+    left: 95px;
+}
+
+/* argentine TITLE */
+
+#argentineTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#argentineTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#argentineTitle .third {
+    top: 180px;
+    left: 60px;
+}
+
+#argentineTitle .forth {
+    top: 270px;
+    left: 121px;
+}
+
+/* chili TITLE */
+
+#chiliTitle .first {
+    top: 0px;
+    left: 0px;
+}
+
+#chiliTitle .second {
+    top: 90px;
+    left: 45px;
+}
+
+#chiliTitle .third {
+    top: 180px;
+    left: 60px;
+}
